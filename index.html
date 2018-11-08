@@ -112,9 +112,11 @@ blink {
 </head>
 <body>
 
+<button style="margin-right:10px; width: 120px;height: 35px;background: #888;border: 2px solid #999;cursor: pointer;border-radius: 2px;	color: #fff;font-family: 'Open Sans', sans-serif;font-size: 16px;font-weight: bold;padding: 6px;margin-top: 10px;" id="myBtn">QR SCAN</button>
+
 <div id="myModal" class="modal">
 <div class="modal-content">
-<center><span class="scanning"> ▓ scanning ▓ </span></center>
+<center><span class="scanning"><blink> ▓ scanning ▓ </blink></span></center>
 <div id="mainbody">
 <div class="selector" id="webcamimg" onclick="setwebcam()" align="left" ></div>
 <table class="tsel" border="0" width="100%">
@@ -128,7 +130,7 @@ blink {
 <div id="result"></div>
 </table>
 <span class="close"></span>
-<center><span style="font-weight:bold;font-size:12px; color:#999;">Scan QR code Jika Gagal Gunakan Login Manual</span></center>
+<center><span style="font-weight:bold;font-size:12px; color:#999;">Scan QR code yang ada pada vouhcer anda</span></center>
 </div>
 <canvas id="qr-canvas" width="100%" height="100%"></canvas>
 </div>
