@@ -1,0 +1,2 @@
+# myqr
+qr scanner
